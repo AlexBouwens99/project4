@@ -1,0 +1,169 @@
+/* General page styling */
+body {
+    font-family: 'Roboto Slab', serif; /* Choose a Google Font like Roboto Slab or Alice for whimsy */
+    background-color: #FFF8E7; /* Soft, parchment-like background */
+    color: #3D3D3D; /* Dark gray for readability */
+    line-height: 1.6;
+    text-align: left;
+    margin: auto;
+    max-width: 45em; /* Keeps text readable with limited line width */
+    padding: 1em;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #FFD700; /* Gold reminiscent of the Yellow Brick Road */
+    color: #8B4513; /* Earthy color for contrast */
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+header h1 {
+    font-family: 'Caveat', cursive; /* Choose a playful, handwritten Google Font for titles */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    color: #8B4513;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #006400; /* Emerald green, like the Emerald City */
+    background-color: #FFEFD5; /* Soft cream */
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #8B0000; /* Deep red on hover, symbolizing the ruby slippers */
+    color: #FFD700;
+}
+
+
+p {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #8B4513;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Adds depth */
+    margin: 1em auto;
+}
+
+/* Chapter Section Styling */
+.chapter {
+    background-color: #FFFAF0; /* Light cream background for readability */
+    padding: 2em;
+    margin: 1.5em auto;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Adds depth with a soft shadow */
+    max-width: 40em; /* Keeps the width consistent and readable */
+}
+
+.chapter p {
+    font-size: 1.1em;
+    color: #3D3D3D; /* Consistent color with body text */
+    margin-bottom: 1.2em; /* Adds spacing between paragraphs */
+    line-height: 1.6; /* Improves readability */
+}
+
+.chapter img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1em auto;
+    border: 3px solid #8B4513; /* Brown border for a rustic feel */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for images */
+}
+
+.chapter h2 {
+    font-family: 'Caveat', cursive; /* Handwritten, whimsical font */
+    color: #8B4513; /* Consistent earthy brown for headings */
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.chapter blockquote {
+    font-style: italic;
+    color: #4682B4; /* Blue-green hint for quotes */
+    padding: 1em;
+    border-left: 4px solid #FFD700; /* Golden border for a touch of whimsy */
+    margin: 1.5em 0;
+    background-color: #FFF8E7;
+    border-radius: 5px;
+}
+
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #FFEFD5; /* Match nav link background */
+    color: #3D3D3D;
+    font-size: 0.9em;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Button-like navigation links at the bottom */
+footer nav {
+    margin-top: 0.5em;
+}
+
+footer nav a {
+    margin: 0 0.5em;
+    padding: 0.4em 0.8em;
+    background-color: #FFD700;
+    color: #006400;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    background-color: #8B0000;
+    color: #FFD700;
+}
+
+/* Font & Color notes */
+h1, h2 {
+    color: #3D3D3D; /* Earthy gray for headings */
+}
+
+h1 {
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
